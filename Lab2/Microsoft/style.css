@@ -71,6 +71,10 @@ select{
     text-decoration: underline;
 }
 
+.carousel{
+    height: 700px;
+}
+
 .carousel_item{
     position: relative;
     display: none;
@@ -165,3 +169,81 @@ select{
     background-color: #262626;
   }
   
+  .list_links{
+    height: 200px;
+  }
+
+  .list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+  }
+
+  .list_el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .list_el a{
+    font-size: 16px;
+    text-decoration: underline;
+    color:rgb(0, 103, 184);
+    font-weight: 600; 
+  }
+
+
+  .list_links{
+    position: ;
+  }
+  .icon{
+    width: 40px;
+  }
+
+
+
+  .cards {
+    height: 550px;
+
+
+}
+.list_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 330px;  
+    height: 510px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card img{
+    width: 100%;
+}
+.card_descr {
+    text-align: justify;
+    line-height: 24px;
+    padding: 25px;
+}
+.card_descr h2{
+    line-height: 35px;
+    text-align: left;
+}
+.card_descr p{
+    margin-bottom: 25px;
+
+}
+
+
+span{
+    background-color: #ffb900;
+
+}
