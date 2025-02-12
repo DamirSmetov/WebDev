@@ -13,7 +13,7 @@ function addTask(){
                 <button class="delete-btn" onclick="deleteTask(this)">🗑</button>
             </li>
         `;
-        listTasks.insertAdjacentHTML("afterbegin", html);
+        listTasks.insertAdjacentHTML("afterend", html);
     }
     inputBox.value='';
 };
