@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
 }
 .nav_bar_1 {
     display: flex;
@@ -73,6 +74,7 @@ select{
 
 .carousel{
     height: 700px;
+    overflow: hidden;
 }
 
 .carousel_item{
